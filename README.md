@@ -13,9 +13,9 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 
 ### 1) Introdução e Configuração do Ambiente
 - ✅ Visão Geral do Curso
-- [ ] O que é HTML?
-- [ ] Quiz: O que é HTML? (3 perguntas)
-- [ ] Editores de Texto
+- ✅ O que é HTML?
+- ✅ Quiz: O que é HTML? (3 perguntas)
+- ✅ Editores de Texto
 - [ ] Estrutura de Um Arquivo HTML
 - [ ] Quiz: A Estrutura de um Arquivo HTML (1 pergunta)
 - [ ] Navegadores
