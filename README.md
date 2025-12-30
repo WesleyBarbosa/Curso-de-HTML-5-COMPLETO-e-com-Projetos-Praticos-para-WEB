@@ -12,7 +12,7 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 > Total do curso: **8 seções • 249 aulas • 18h 17m** (conforme a plataforma)
 
 ### 1) Introdução e Configuração do Ambiente
-- [ ] Visão Geral do Curso
+- ✅ Visão Geral do Curso
 - [ ] O que é HTML?
 - [ ] Quiz: O que é HTML? (3 perguntas)
 - [ ] Editores de Texto
