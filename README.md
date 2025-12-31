@@ -8,7 +8,7 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 
 ---
 
-## 📚 Conteúdo do curso
+## 📚 SEÇÃO 1 - Conteúdo do curso
 > Total do curso: **8 seções • 249 aulas • 18h 17m** (conforme a plataforma)
 
 ### 1) Introdução e Configuração do Ambiente
