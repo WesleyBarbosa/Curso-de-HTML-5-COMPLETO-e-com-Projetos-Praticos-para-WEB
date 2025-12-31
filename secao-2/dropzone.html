@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributo: dropzone</title>
+    <style>
+        .caixa {
+            width: 200px;
+            height: 200px;
+            background-color: chocolate;
+            text-align: center;
+            line-height: 200px;
+            font-size: 24px;
+        }
+
+        .drop {
+            width: 400px;
+            height: 800px;
+            background-color: lightgray;
+            text-align: center;
+            line-height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="c1" class="caixa" draggable="true">C1</div><br>
+    <div id="c2" class="caixa" draggable="true">C2</div><br>
+
+    <!-- Este Atributo é usado para definir uma zona de largada -->
+    <div class="drop" dropzone="copy">Cole o DROP aqui</div>
+    <!-- <div class="drop" dropzone="move"></div><br>
+    <div class="drop" dropzone="link"></div><br>
+    <div class="drop" dropzone="none"></div><br> -->
+
+    <script>
+        const caixas = document.querySelectorAll('.caixa');
+        const dropZone = document.querySelector('.drop'); // 1. Seleciona a área cinza
+
+        caixas.forEach(caixa => {
+            caixa.addEventListener('dragstart', e => {
+                // Guarda o ID ("c1" ou "c2") para usar depois
+                e.dataTransfer.setData('Text', e.target.id);
+            });
+        });
+
+        // 2. OBRIGATÓRIO: Permite que algo seja solto aqui
+        dropZone.addEventListener('dragover', e => {
+            e.preventDefault(); 
+        });
+
+        // 3. A mágica acontece aqui
+        dropZone.addEventListener('drop', e => {
+            e.preventDefault();
+            
+            // Pega o ID que guardamos lá no dragstart
+            const id = e.dataTransfer.getData('Text');
+            
+            // Encontra o elemento original pelo ID
+            const elementoArrastado = document.getElementById(id);
+            
+            // Move o elemento para dentro da dropZone
+            dropZone.appendChild(elementoArrastado);
+        });
+    </script>
+
+</body>
+
+</html>
