@@ -55,5 +55,5 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 ---
 
 ## 👤 Autor
-Wesley Barbosa
--*Front-end Dev*
+Wesley Barbosa  
+*Front-end Developer | HTML5 • CSS3 • JavaScript*
