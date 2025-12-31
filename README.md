@@ -1,8 +1,6 @@
 # Curso-de-HTML-5-COMPLETO-e-com-Projetos-Praticos-para-WEB
 Todas as Tags, Atributos e Eventos do HTML5 além de CSS 3 e JavaScript na Prática com Projetos Didáticos e Incríveis.
 
-# Nome-do-Projeto (ou Nome-do-Curso)
-
 Repositório de estudos do curso de **HTML5**.  
 Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 
