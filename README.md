@@ -23,6 +23,26 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 ---
 
 ## 📚 SEÇÃO 2 - Atributos Globais
+## ✅ Seção 2 — Atributos Globais
+
+- ✅ **8. Atributos Globais** (6m)
+- ✅ **9. Atributo: accesskey** (3m)
+- ✅ **10. Atributo: class** (5m)
+- ✅ **11. Atributo: contenteditable** (3m)
+- ✅ **12. Atributo: data-*** (5m)
+- ✅ **13. Atributo: dir** (3m)
+- ✅ **14. Atributo: draggable** (3m)
+- ✅ **15. Atributo: dropzone** (15m)
+- ✅ **16. Atributo: hidden** (2m)
+- ✅ **17. Atributo: id** (5m)
+- ✅ **18. Atributo: lang** (3m)
+- ✅ **19. Atributo: spellcheck** (3m)
+- ✅ **20. Atributo: style** (2m)
+- ✅ **21. Atributo: tabindex** (4m)
+- ✅ **22. Atributo: title** (3m)
+- ✅ **23. Atributo: translate** (3m)
+- ✅ **24. Código Final do Projeto**
+
 ## 🚀 Você pode acessar o código desenvolvido nesta seção no GitHub da Hcode: https://github.com/hcodebr/curso-completo-html5/tree/master/atributos-globais
 
 ---
@@ -36,4 +56,4 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 
 ## 👤 Autor
 Wesley Barbosa
-- *Front-end Dev*
+-*Front-end Dev*
