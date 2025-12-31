@@ -16,11 +16,16 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 - ✅ O que é HTML?
 - ✅ Quiz: O que é HTML? (3 perguntas)
 - ✅ Editores de Texto
-- [ ] Estrutura de Um Arquivo HTML
-- [ ] Quiz: A Estrutura de um Arquivo HTML (1 pergunta)
-- [ ] Navegadores
-- [ ] Ferramenta para Desenvolvedores
-- [ ] Estrutura de Páginas
+- ✅ Estrutura de Um Arquivo HTML
+- ✅ Quiz: A Estrutura de um Arquivo HTML (1 pergunta)
+- ✅ Navegadores
+- ✅ Ferramenta para Desenvolvedores
+- ✅ Estrutura de Páginas
+
+---
+
+### 2) SEÇÃO 2 - Atributos Globais
+## 🚀 Você pode acessar o código desenvolvido nesta seção no GitHub da Hcode: https://github.com/hcodebr/curso-completo-html5/tree/master/atributos-globais
 
 ---
 
@@ -30,8 +35,6 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 - Vou marcando com ✅ quando concluir.
 
 ---
-
-## 🚀 Você pode acessar o código desenvolvido nesta seção no GitHub da Hcode: https://github.com/hcodebr/curso-completo-html5/tree/master/atributos-globais
 
 ## 👤 Autor
 Wesley Barbosa
