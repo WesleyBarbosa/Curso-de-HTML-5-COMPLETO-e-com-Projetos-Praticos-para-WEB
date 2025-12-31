@@ -22,7 +22,7 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 
 ---
 
-## 📚 2) SEÇÃO 2 - Atributos Globais
+## 📚 SEÇÃO 2 - Atributos Globais
 ## 🚀 Você pode acessar o código desenvolvido nesta seção no GitHub da Hcode: https://github.com/hcodebr/curso-completo-html5/tree/master/atributos-globais
 
 ---
