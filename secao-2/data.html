@@ -8,10 +8,18 @@
 <body>
 
     <ul>
-        <li data-id="1" data-email="wesley.barbosa2015@gmail.com">Wesley Barbosa</li>
-        <li data-ano="2" data-email="joaorangel@gmail.com">João Rangel</li>
-        <li data-ano="3" data-email="mariasilva@gmail.com">Maria Silva</li>
+        <li data-id="1" data-email="john@gmail.com" data-idade="25">John Doe</li>
+        <li data-id="2" data-email="joaorangel@gmail.com" data-idade="33">João Rangel</li>
+        <li data-id="3" data-email="mariasilva@gmail.com" data-idade="27">Maria Silva</li>
     </ul>
+
+    <script>
+        document.querySelectorAll('li').forEach(liEl => {
+            console.log("ID: " + liEl.dataset.id);
+            console.log("Email: " + liEl.dataset.email);
+            console.log("Idade: " + liEl.dataset.idade);
+        });
+    </script>
     
 </body>
 </html>
