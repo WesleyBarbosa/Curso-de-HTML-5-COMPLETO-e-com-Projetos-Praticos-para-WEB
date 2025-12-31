@@ -36,4 +36,4 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 
 ## 👤 Autor
 Wesley Barbosa
-*Front-end Dev*
+- *Front-end Dev*
