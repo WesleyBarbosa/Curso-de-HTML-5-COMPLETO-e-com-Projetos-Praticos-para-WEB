@@ -23,8 +23,6 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 ---
 
 ## 📚 SEÇÃO 2 - Atributos Globais
-## ✅ Seção 2 — Atributos Globais
-
 - ✅ **8. Atributos Globais** (6m)
 - ✅ **9. Atributo: accesskey** (3m)
 - ✅ **10. Atributo: class** (5m)
