@@ -53,16 +53,16 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 - ✅ **26. Doctype**
 - ✅ **27. Comentários**
 - ✅ **28. Tag: body**
-- ✅ 29. Tag: head
-- ✅ 30. Tag: title
-- [ ] 31. Tag: meta
-- [ ] 32. Tag: p
-- [ ] 33. Tag: h1
-- [ ] 34. Tag: h2
-- [ ] 35. Tag: h3
-- [ ] 36. Tag: h4
-- [ ] 37. Tag: h5
-- [ ] 38. Tag: h6
+- ✅  **29. Tag: head **
+- ✅  **30. Tag: title **
+- ✅  **31. Tag: meta **
+- ✅  **32. Tag: p **
+- ✅  **33. Tag: h1 **
+- ✅  **34. Tag: h2 **
+- ✅  **35. Tag: h3 **
+- ✅  **36. Tag: h4 **
+- ✅  **37. Tag: h5 **
+- ✅  **38. Tag: h6 **
 - [ ] 39. Tag: style
 - [ ] 40. Tag: script
 - [ ] 41. Tag: div
