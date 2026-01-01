@@ -45,12 +45,12 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 
 ### Seção 3: Tags HTML
 
-- [ ] 25. Tag: html
-- [ ] 26. Doctype
-- [ ] 27. Comentários
-- [ ] 28. Tag: body
-- [ ] 29. Tag: head
-- [ ] 30. Tag: title
+- ✅ **25. Tag: html**
+- ✅ **26. Doctype**
+- ✅ **27. Comentários**
+- ✅ **28. Tag: body**
+- ✅ 29. Tag: head
+- ✅ 30. Tag: title
 - [ ] 31. Tag: meta
 - [ ] 32. Tag: p
 - [ ] 33. Tag: h1
