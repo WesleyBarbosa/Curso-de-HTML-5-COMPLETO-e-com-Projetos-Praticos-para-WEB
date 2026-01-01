@@ -9,7 +9,7 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 ## 📚 Conteúdo do curso
 > Total do curso: **8 seções • 249 aulas • 18h 17m** (conforme a plataforma)
 
-### SEÇÃO 1) Introdução e Configuração do Ambiente
+### SEÇÃO 1: Introdução e Configuração do Ambiente
 - ✅ Visão Geral do Curso
 - ✅ O que é HTML?
 - ✅ Quiz: O que é HTML? (3 perguntas)
@@ -22,7 +22,7 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 
 ---
 
-### SEÇÃO 2) Atributos Globais
+### SEÇÃO 2: Atributos Globais
 - ✅ **8. Atributos Globais** (6m)
 - ✅ **9. Atributo: accesskey** (3m)
 - ✅ **10. Atributo: class** (5m)
