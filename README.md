@@ -41,6 +41,10 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 - ✅ **23. Atributo: translate** (3m)
 - ✅ **24. Código Final do Projeto**
 
+## 🚀 Você pode acessar o código desenvolvido nesta seção no repositório da **Hcode** no GitHub:  
+🔗 [Atributos Globais — curso-completo-html5](https://github.com/hcodebr/curso-completo-html5/tree/master/atributos-globais)
+
+
 ---
 
 ### Seção 3: Tags HTML
@@ -158,12 +162,6 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 - [ ] 135. Tag: svg
 - [ ] 136. Tag: hgroup
 - [ ] 137. Tag: marquee
-
----
-
-## 🚀 Você pode acessar o código desenvolvido nesta seção no repositório da **Hcode** no GitHub:  
-🔗 [Atributos Globais — curso-completo-html5](https://github.com/hcodebr/curso-completo-html5/tree/master/atributos-globais)
-
 
 ---
 
