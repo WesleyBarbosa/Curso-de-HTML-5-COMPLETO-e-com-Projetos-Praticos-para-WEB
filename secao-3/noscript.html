@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tag noscript</title>
+</head>
+
+<body>
+
+    <h1>Exemplo da tag &lt;noscript&gt;</h1>
+
+    <script>
+        alert("JavaScript está habilitado no seu navegador!");
+    </script>
+
+    <noscript>
+        <style>
+            body {
+                background-color: #8f1abd;
+                color: #fff;
+            }
+
+            p {
+                color: red;
+                font-weight: bold;
+            }
+        </style>
+
+        <p>JavaScript está desabilitado no seu navegador. Por favor, habilite-o para uma melhor experiência.</p>
+    </noscript>
+</body>
+
+</html>
