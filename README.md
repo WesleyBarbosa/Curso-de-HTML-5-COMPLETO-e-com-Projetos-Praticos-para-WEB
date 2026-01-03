@@ -63,19 +63,19 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 - ✅  **36. Tag: h4**
 - ✅  **37. Tag: h5**
 - ✅  **38. Tag: h6**
-- [ ] 39. Tag: style
-- [ ] 40. Tag: script
-- [ ] 41. Tag: div
-- [ ] 42. Tag: span
-- [ ] 43. Tag: link
-- [ ] 44. Tag: noscript
-- [ ] 45. Tag: embed
-- [ ] 46. Tag: object
-- [ ] 47. Tag: param
-- [ ] 48. Tag: base
-- [ ] 49. Tag: iframe
-- [ ] 50. Tag: a
-- [ ] 51. Tag: img
+- ✅ **39. Tag: style**
+- ✅ **40. Tag: script**
+- ✅ **41. Tag: div**
+- ✅ **42. Tag: span**
+- ✅ **43. Tag: link**
+- ✅ **44. Tag: noscript**
+- ✅ **45. Tag: embed**
+- ✅ **46. Tag: object**
+- ✅ **47. Tag: param**
+- ✅ **48. Tag: base**
+- ✅ **49. Tag: iframe**
+- ✅ **50. Tag: a**
+- ✅ **51. Tag: img**
 - [ ] 52. Tag: figure
 - [ ] 53. Tag: figcaption
 - [ ] 54. Tag: audio
