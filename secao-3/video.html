@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tag video</title>
+</head>
+<body>
+
+    <!--
+    Atributos:
+    controls: Exibe os controles de vídeo (play, pause, volume, etc.).
+    autoplay: Inicia a reprodução automática do vídeo quando a página é carregada.
+    loop: Faz o vídeo reiniciar automaticamente após terminar.
+    muted: Inicia o vídeo sem som.
+    preload: Indica se o vídeo deve ser carregado automaticamente (auto), não carregado (none) ou carregado apenas quando o usuário interagir (metadata).
+    src: Especifica o caminho do arquivo de vídeo.
+    poster: Especifica uma imagem a ser exibida antes do vídeo ser reproduzido.
+    Exemplos de formatos de vídeo suportados: MP4, WebM, OGG.
+    -->
+
+    <video width="640" height="360" controls poster="/img/1260x530_1554998019.jpg">
+        <source src="/media/AV1_trailer.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+
+    <video width="640" height="360" controls poster="https://www.udiscovermusic.com/wp-content/uploads/2020/11/Nazareth-GettyImages-85350369.jpg">
+        <source src="https://www.youtube.com/embed/kWOqDH9P5Ck?si=FfVQHw2DCdpIKiLG" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kWOqDH9P5Ck?si=FfVQHw2DCdpIKiLG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>
