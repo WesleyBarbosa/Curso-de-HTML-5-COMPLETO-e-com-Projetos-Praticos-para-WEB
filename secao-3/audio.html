@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tag audio</title>
+</head>
+<body>
+
+    <!--
+    Atributos:
+    controls: Exibe os controles de áudio (play, pause, volume, etc.).
+    autoplay: Inicia a reprodução automática do áudio quando a página é carregada.
+    loop: Faz o áudio reiniciar automaticamente após terminar.
+    muted: Inicia o áudio sem som.
+    preload: Indica se o áudio deve ser carregado automaticamente (auto), não carregado (none) ou carregado apenas quando o usuário interagir (metadata).
+    src: Especifica o caminho do arquivo de áudio.
+    Exemplos de formatos de áudio suportados: MP3, WAV, OGG.
+    -->
+
+    <audio controls>
+        <source src="/media/How_it_Began.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <audio controls autoplay loop muted>
+        <source src="/media/How_it_Began.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <audio controls preload="metadata">
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    
+</body>
+</html>
