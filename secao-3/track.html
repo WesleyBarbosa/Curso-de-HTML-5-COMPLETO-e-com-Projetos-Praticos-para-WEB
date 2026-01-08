@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tag track</title>
+</head>
+<body>
+
+    <!--
+    Atributos:
+    kind: Define o tipo de legenda.
+    src: Define o caminho do arquivo de legenda.
+    srclang: Define o idioma da legenda.
+    label: Define o rótulo da legenda.
+    default: Define se a legenda é a padrão.
+    -->
+
+    <video controls width="500">
+        <track kind="subtitles" src="/legendas/legenda-pt.vtt" srclang="pt" label="Português" default>
+        <track kind="subtitles" src="/legendas/legenda-en.vtt" srclang="en" label="English">
+        <source src="/videos/video.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+
+</body>
+</html>
