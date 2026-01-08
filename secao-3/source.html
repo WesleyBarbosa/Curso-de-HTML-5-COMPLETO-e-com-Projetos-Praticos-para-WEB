@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tag source</title>
+</head>
+<body>
+
+    <!--
+    Atributos: src, type, media, sizes, srcset, integrity, crossorigin:
+    src: Especifica o caminho do arquivo de mídia.
+    type: Define o tipo MIME do arquivo de mídia.
+    media: Define a condição de mídia para a qual o recurso é adequado.
+    sizes: Define os tamanhos de imagem para diferentes resoluções.
+    srcset: Define os caminhos e tamanhos de imagem para diferentes resoluções.
+    integrity: Define a integridade do arquivo de mídia.
+    crossorigin: Define a politica de compartilhamento de recursos.
+    -->
+
+    <audio controls>
+        <source src="/media/How_it_Began.mp3" type="audio/mpeg">
+        <source src="/media/How_it_Began.ogg" type="audio/ogg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <picture>
+        <source srcset="/img/logo1.png" media="(min-width: 512px)">
+        <source srcset="/img/logo256.png" media="(min-width: 256px)">
+        <img src="/img/logo64.png" alt="Logo da HCode">
+    </picture>
+
+</body>
+</html>
