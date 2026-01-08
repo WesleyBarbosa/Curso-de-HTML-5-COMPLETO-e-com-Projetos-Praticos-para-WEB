@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tag picture</title>
+</head>
+<body>
+
+    <!--
+    Atributos:
+    srcset: Define os caminhos e tamanhos de imagem para diferentes resoluções.
+    media: Define a condição de mídia para a qual o recurso é adequado.
+    sizes: Define os tamanhos de imagem para diferentes resoluções.
+    -->
+
+    <picture>
+        <source srcset="/img/logo1.png" media="(min-width: 512px)">
+        <source srcset="/img/logo256.png" media="(min-width: 256px)">
+        <img src="/img/logo64.png" alt="Logo da HCode">
+    </picture>
+
+</body>
+</html>
