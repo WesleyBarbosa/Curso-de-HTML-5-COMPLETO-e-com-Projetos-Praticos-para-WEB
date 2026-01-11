@@ -49,48 +49,48 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 
 ### Seção 3: Tags HTML
 
-- ✅ **25. Tag: html**
-- ✅ **26. Doctype**
-- ✅ **27. Comentários**
-- ✅ **28. Tag: body**
-- ✅  **29. Tag: head**
-- ✅  **30. Tag: title**
-- ✅  **31. Tag: meta**
-- ✅  **32. Tag: p**
-- ✅  **33. Tag: h1**
-- ✅  **34. Tag: h2**
-- ✅  **35. Tag: h3**
-- ✅  **36. Tag: h4**
-- ✅  **37. Tag: h5**
-- ✅  **38. Tag: h6**
-- ✅ **39. Tag: style**
-- ✅ **40. Tag: script**
-- ✅ **41. Tag: div**
-- ✅ **42. Tag: span**
-- ✅ **43. Tag: link**
-- ✅ **44. Tag: noscript**
-- ✅ **45. Tag: embed**
-- ✅ **46. Tag: object**
-- ✅ **47. Tag: param**
-- ✅ **48. Tag: base**
-- ✅ **49. Tag: iframe**
-- ✅ **50. Tag: a**
-- ✅ **51. Tag: img**
-- [ ] 52. Tag: figure
-- [ ] 53. Tag: figcaption
-- [ ] 54. Tag: audio
-- [ ] 55. Tag: video
-- [ ] 56. Tag: source
-- [ ] 57. Tag: picture
-- [ ] 58. Tag: track
-- [ ] 59. Tag: table
-- [ ] 60. Tag: tr
-- [ ] 61. Tag: td
-- [ ] 62. Tag: thead
-- [ ] 63. Tag: tbody
-- [ ] 64. Tag: tfoot
-- [ ] 65. Tag: th
-- [ ] 66. Tag: template
+- [x] 25. Tag: html
+- [x] 26. Doctype
+- [x] 27. Comentários
+- [x] 28. Tag: body
+- [x] 29. Tag: head
+- [x] 30. Tag: title
+- [x] 31. Tag: meta
+- [x] 32. Tag: p
+- [x] 33. Tag: h1
+- [x] 34. Tag: h2
+- [x] 35. Tag: h3
+- [x] 36. Tag: h4
+- [x] 37. Tag: h5
+- [x] 38. Tag: h6
+- [x] 39. Tag: style
+- [x] 40. Tag: script
+- [x] 41. Tag: div
+- [x] 42. Tag: span
+- [x] 43. Tag: link
+- [x] 44. Tag: noscript
+- [x] 45. Tag: embed
+- [x] 46. Tag: object
+- [x] 47. Tag: param
+- [x] 48. Tag: base
+- [x] 49. Tag: iframe
+- [x] 50. Tag: a
+- [x] 51. Tag: img
+- [x] 52. Tag: figure
+- [x] 53. Tag: figcaption
+- [x] 54. Tag: audio
+- [x] 55. Tag: video
+- [x] 56. Tag: source
+- [x] 57. Tag: picture
+- [x] 58. Tag: track
+- [x] 59. Tag: table
+- [x] 60. Tag: tr
+- [x] 61. Tag: td
+- [x] 62. Tag: thead
+- [x] 63. Tag: tbody
+- [x] 64. Tag: tfoot
+- [x] 65. Tag: th
+- [x] 66. Tag: template
 - [ ] 67. Tag: colgroup
 - [ ] 68. Tag: col
 - [ ] 69. Tag: caption
