@@ -168,7 +168,7 @@ Aqui eu organizo anotações, exercícios e exemplos por seção/aula.
 ## 🚀 Como estou usando este repositório
 - Cada seção do curso vira uma pasta.
 - Cada aula tem seus exemplos e/ou anotações.
-- Vou marcando com [x] quando concluir.
+- Vou marcando com - [x] quando concluir.
 
 ---
 
