@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag map</title>
+</head>
+<body>
+    <!-- A tag map é usada para definir áreas clicáveis em uma imagem -->
+    <!-- Atributos: -->
+    <!--
+        Global attributes: class, id, style, title, etc.
+        Non-standard attributes: data-*, aria-*
+        name: Define o nome do mapa de imagem
+        usemap: Define o nome do mapa de imagem a ser usado com a imagem
+        coords: Define as coordenadas do mapa de imagem
+        shape: Define o shape do mapa de imagem
+        alt: Define o texto alternativo do mapa de imagem
+    -->
+
+    <img src="/img/logo1.png" alt="Logo do site" usemap="#mapa-logo">
+    <map name="mapa-logo">
+        <area shape="circle" coords="211,263,15" href="https://www.hcode.com" alt="Olho esquerdo">
+        <area shape="circle" coords="301,263,15" href="https://www.hcode.com" alt="Olho direito">
+    </map>
+    
+</body>
+</html>
