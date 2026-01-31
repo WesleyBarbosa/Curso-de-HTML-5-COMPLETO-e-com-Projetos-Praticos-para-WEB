@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag form</title>
+</head>
+<body>
+
+        <!-- A tag form é usada para criar um formulário HTML para a coleta de dados do usuário -->
+        <!-- Atributos: -->
+        <!--
+            acept-charset: Especifica os conjuntos de caracteres que o servidor pode aceitar.
+            action: Especifica para onde os dados do formulário serão enviados.
+            autocomplete: Indica se o navegador deve ou não preencher automaticamente os campos do formulário. (on ou off)
+            method: Define o método HTTP a ser usado ao enviar os dados (GET ou POST).
+            enctype: Especifica o tipo de codificação a ser usado ao enviar os dados (usado principalmente com POST).
+            name: Define um nome para o formulário.
+            novalidate: Indica que o formulário não deve ser validado ao ser enviado.
+            onsubmit: Define uma função a ser executada quando o formulário é enviado.
+            target: Especifica onde abrir a resposta após o envio do formulário.
+            Global attributes: class, id, style, title, etc.
+            Non-standard attributes: data-*, aria-*
+        -->
+        <p>Exemplo de uso da tag form:</p>
+        <form action="/submit" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <p>Neste exemplo, a tag <code>&lt;form&gt;</code> é usada para criar um formulário que coleta o nome e o email do usuário e envia os dados para o servidor usando o método POST.</p>
+    
+</body>
+</html>

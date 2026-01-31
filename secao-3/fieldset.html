@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag fieldset</title>
+</head>
+<body>
+
+    <!-- A tag fieldset é usada para agrupar elementos relacionados em um formulário HTML, melhorando a organização e a legibilidade dos formulários. -->
+
+    <!-- Atributos: -->
+    <!--
+        disabled: Desabilita todos os elementos dentro do fieldset.
+        form: Especifica o formulário ao qual o fieldset pertence.
+        name: Define um nome para o fieldset.
+        Global attributes: class, id, style, title, etc.
+        Non-standard attributes: data-*, aria-*
+    -->
+    <p>Exemplo de uso da tag fieldset:</p>
+
+    <form>
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Informações de Conta</legend>
+            <label for="usuario">Nome de Usuário:</label>
+            <input type="text" id="usuario" name="usuario" required>
+            <br><br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+        </fieldset>
+        <br>
+        <input type="submit" value="Registrar">
+    </form>
+    
+</body>
+</html>

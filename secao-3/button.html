@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag button</title>
+</head>
+<body>  
+
+    <!-- A tag button é usada para criar botões na tela -->
+
+    <!-- Atributos: -->
+    <!--
+        autofocus: Indica que o botão deve receber foco automaticamente ao carregar a página.
+        disabled: Desabilita o botão, impedindo que ele seja clicado.
+        form: Especifica o formulário ao qual o botão pertence.
+        formaction: Especifica a URL para enviar os dados do formulário quando o botão é clicado.
+        formenctype: Especifica o tipo de codificação a ser usado ao enviar os dados do formulário.
+        formmethod: Especifica o método HTTP a ser usado ao enviar os dados do formulário.
+        formnovalidate: Indica que o formulário nao deve ser validado ao ser enviado.
+        formtarget: Especifica onde abrir a resposta após o envio do formulário.
+        name: Define um nome para o botão.
+        type: Define o tipo do botão (button, submit, reset).
+        value: Define o valor inicial para o botão.
+        Global attributes: class, id, style, title, etc.
+        Non-standard attributes: data-*, aria-*
+    -->
+    <p>Exemplo de uso da tag button:</p>
+
+    <form id="formulario">
+        <input type="text" name="nome" placeholder="Digite seu nome" value="HCode">
+    </form>
+    <button type="button">Clique aqui</button>
+    <button type="submit" form="formulario">Enviar</button>
+    <button type="reset" form="formulario">Limpar</button>
+    
+</body>
+</html>

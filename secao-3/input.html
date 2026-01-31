@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag input</title>
+</head>
+<body>
+
+        <!-- A tag input é usada para criar campos interativos em formulários HTML, permitindo que os usuários insiram dados -->
+        <!-- Atributos: -->
+        <!--
+            accept: Especifica os tipos de arquivos que o navegador deve aceitar para o campo de entrada.
+            accept-charset: Especifica os conjuntos de caracteres que o servidor pode aceitar.
+            accesskey: Define uma tecla de atalho para acessar o campo de entrada.
+            alt: Fornece um texto alternativo para o campo de entrada, usado principalmente com imagens.
+            autocomplete: Indica se o navegador deve ou não preencher automaticamente os campos do formulário. (on ou off)
+            autofocus: Indica que o campo de entrada deve receber foco automaticamente ao carregar a página.
+            checked: Define se o campo de entrada deve ser marcado ou não.
+            class: Define uma classe para o campo de entrada.
+            dir: Define a direção do texto dentro do campo de entrada.
+            dirname: Define o nome do diretório onde o campo de entrada está.
+            disabled: Desabilita o campo de entrada.
+            form: Especifica o formulário ao qual o campo de entrada pertence.
+            formaction: Especifica a URL para enviar os dados do formulário.
+            formenctype: Especifica o tipo de codificação a ser usado ao enviar os dados do formulário.
+            formmethod: Especifica o método HTTP a ser usado ao enviar os dados do formulário.
+            formnovalidate: Indica que o formulário nao deve ser validado ao ser enviado.
+            formtarget: Especifica onde abrir a resposta após o envio do formulário.
+            height: Define a altura do campo de entrada.
+            id: Define um identificador exclusivo para o campo de entrada.
+            inputmode: Define o modo de entrada para o campo de entrada.
+            list: Especifica o ID de uma lista de opções para o campo de entrada.
+            max: Define o valor máximo para o campo de entrada.
+            maxlength: Define o comprimento máximo para o campo de entrada.
+            min: Define o valor mínimo para o campo de entrada.
+            minlength: Define o comprimento mínimo para o campo de entrada.
+            multiple: Permite o usuário selecionar mais de uma opção de uma lista de opções.
+            name: Define um nome para o campo de entrada.
+            pattern: Define um padrão para o campo de entrada.
+            placeholder: Define um texto de exemplo para o campo de entrada.
+            readonly: Indica que o campo de entrada é somente leitura.
+            required: Indica que o campo de entrada é obrigatório.
+            size: Define o tamanho do campo de entrada.
+            src: Define a URL do recurso vinculado ao campo de entrada.
+            step: Define o incremento para o campo de entrada(pulo).
+            tabindex: Define a ordem de tabulação para o campo de entrada.
+            type: Define o tipo de entrada para o campo de entrada.
+            value: Define o valor inicial para o campo de entrada.
+        -->
+        <p>Exemplo de uso da tag input:</p>
+        <form>
+            <label for="username">Nome de usuário:</label>
+            <input type="text" id="username" name="username" placeholder="Digite seu nome de usuário" required>
+            <br><br>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+            <br><br>
+            <input type="submit" value="Login">
+        </form>
+
+        <hr/>
+        <p>Neste exemplo, a tag <code>&lt;input&gt;</code> é usada para criar campos de entrada para o nome de usuário e senha em um formulário de login.</p>
+
+        <p>Exemplo de formulário mais completo com diferentes tipos de input:</p>
+        <form action="/submit" method="POST">
+            <label for="fullname">Nome completo:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Digite seu nome completo" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+            <br><br>
+            <label for="age">Idade:</label>
+            <input type="number" id="age" name="age" min="0" max="120" required>
+            <br><br>
+            <label for="birthdate">Data de nascimento:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+            <br><br>
+            <label for="profilepic">Foto de perfil:</label>
+            <input type="file" id="profilepic" name="profilepic" accept="image/*">
+            <br><br>
+            <label for="newsletter">Inscrever-se na newsletter:</label>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    
+</body>
+</html>
